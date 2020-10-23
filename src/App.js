@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-
+import ChildCompoent from './childComponent'
 
 
 
@@ -50,6 +50,7 @@ class App extends React.Component {
     return (  
       <div>
         <h1>Hello, world!</h1>
+        <ChildCompoent date={this.state.date.toLocaleTimeString()}/>
         <h2>It is {this.state.date.toLocaleTimeString()}.</h2>
       </div>
     );
