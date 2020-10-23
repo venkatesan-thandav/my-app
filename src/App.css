@@ -36,3 +36,42 @@
     transform: rotate(360deg);
   }
 }
+
+#root{
+  font-size:14px;
+font-family: "ShopifySans, Helvetica, Arial, sans-serif";
+font-weight: 500;
+letter-spacing: 0.02em;
+line-height: 1.5;
+-webkit-font-smoothing:antialiased;
+}
+
+.mxy-20{
+  margin: 20px;
+}
+.nav-bar-container{  
+  color:#cccdd7;
+  font-size: 3em;
+}
+
+.header-bg-color{
+  background-color: #035243;
+  border-bottom-color: transparent;
+  min-height: 80px;
+}
+
+.reset-row{
+  margin-left:0px !important;
+  margin-right:0px !important;
+}
+.bg-iimg{
+  background-image: url(./shop-banner.jpg);
+  background-size: cover;
+  background-position: center;
+  
+  padding-top: 3em;
+  padding-bottom: 3em;
+} 
+.grid_item{
+padding: 20px;
+}

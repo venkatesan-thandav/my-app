@@ -13,6 +13,11 @@ class ChildCompoent extends React.Component {
         return (  
           <div>
             {this.props.date}
+            <div className="row">
+                <div className="col-md-4">
+                    Inside
+                </div>
+            </div>
           </div>
         );
       }
